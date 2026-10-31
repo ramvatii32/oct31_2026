@@ -1,1 +1,11 @@
 name: myworkflow1
+on:
+  push:
+jobs:
+  myjob1:
+    run-on: ubuntu-latest
+    steps:
+      - name: mystep1
+        run: |
+
+
